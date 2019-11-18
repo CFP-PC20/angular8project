@@ -10,9 +10,9 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></head>
 
 <body>
-  <mat-menu #appMenu="matMenu">
-    <a routerLink="/edit" mat-menu-item>Edit</a>
-    <a routerLink="/get" mat-menu-item>Get</a>
+  <mat-menu>
+    <a href="/edit" routerLink="/edit" mat-menu-item>Edit</a>
+    <a href="/get" routerLink="/get" mat-menu-item>Get</a>
   </mat-menu>
   <app-root></app-root>
   <router-outlet></router-outlet>

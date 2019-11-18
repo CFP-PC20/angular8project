@@ -6,7 +6,7 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
 
-import '@angular/material'; 
+import '@angular/material';
 
 if (environment.production) {
   enableProdMode();
